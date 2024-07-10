@@ -12,10 +12,7 @@ and city not like "%i"
 and city not like "%o"
 and city not like "%u";
 */
+
 SELECT DISTINCT CITY
 FROM STATION
-WHERE CITY NOT LIKE '%a'
-AND CITY NOT LIKE '%e'
-AND CITY NOT LIKE '%i'
-AND CITY NOT LIKE '%o'
-AND CITY NOT LIKE '%u';
+WHERE UPPER(SUBSTR(CITY, LENGTH(CITY), 1)) NOT IN ('A','E','I','O','U') AND LOWER(SUBSTR(CITY, LENGTH(CITY),1)) NOT IN ('a','e','i','o','u');
