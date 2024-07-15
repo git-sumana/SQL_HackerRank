@@ -1,6 +1,6 @@
 # HackerRank SQL Solutions
 
-This repository contains my solutions to SQL challenges from HackerRank. Each file corresponds to a specific challenge and has various SQL techniques.
+This repository includes all the basic SQL questions found on the HackerRank website. Upon completing these queries, you can earn a four-star badge. Each file corresponds to a specific challenge and has a solution for it. There might be various SQL techniques, to give me the optimal way to answer ( to alter ) do PR. Thank you!
 
 ## Getting Started
 
